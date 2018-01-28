@@ -1,0 +1,69 @@
+
+.load_body{
+		width:100%;
+		height:100%;
+		background-color:#aab;
+		background-image: linear-gradient(top,#ded 0%,#eef 100% );
+		background-image: -webkit-linear-gradient(top,#ded 0%,#eef 100% );
+		background-image: -moz-linear-gradient(top,#ded 0%,#eef 100% );
+		background-repeat: repeat;
+		position: absolute;
+		z-index: 5;
+}
+.splash{
+	width:100%;
+	height:30%;
+	position:absolute;
+	top:40%;
+	animation-name: anim;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function:linear;
+}
+.splash img{
+	width:50%;
+	height:80%;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	border-radius:50%;
+	
+}
+.menu-open .ion-navicon {
+    transform: rotate(-360deg);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.menu-open .ion-navicon:before {
+    content: "\f2ca";
+}
+.item h1,.item h2,.item h3,.item p{
+	white-space:normal;text-overflow:initial;
+}
+.item-avatar{
+
+}
+.full-image{
+	min-height: 200px;
+}
+.home-button{
+	width:100%;height: 100%;background-color:#dfd;
+	max-width: 150px;
+	background-image: -webkit-linear-gradient(top, #fee 0%, #eef 100%);
+	box-shadow: 2px 2px 2px #200;
+}
+
+.item-content{
+	/*
+	This is for the news item <a> link
+	*/
+	padding:16px !important;
+}
+@keyframes anim {
+0%{ opacity:1; }
+50%{ opacity:0.5; }
+100%{ opacity:1; }
+}
+button.curve,a.curve{
+	border-radius: 20px;
+}

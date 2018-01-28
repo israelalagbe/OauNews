@@ -1,0 +1,14 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="6">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="768" startPos="571" endPos="571" selMode="0" lang="HTML" encoding="-1" filename="C:\xampp\htdocs\jerry\templates\menu.html" backupFilePath="" originalFileLastModifTimestamp="316733484" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="360" startPos="94" endPos="94" selMode="0" lang="HTML" encoding="-1" filename="C:\xampp\htdocs\jerry\templates\load.html" backupFilePath="" originalFileLastModifTimestamp="316653534" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="856" startPos="423" endPos="517" selMode="0" lang="HTML" encoding="-1" filename="C:\xampp\htdocs\jerry\index.html" backupFilePath="" originalFileLastModifTimestamp="316732790" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="672" startPos="211" endPos="211" selMode="0" lang="JavaScript" encoding="-1" filename="C:\xampp\htdocs\jerry\script\script.js" backupFilePath="" originalFileLastModifTimestamp="316733382" />
+            <File firstVisibleLine="5" xOffset="0" scrollWidth="592" startPos="579" endPos="579" selMode="0" lang="CSS" encoding="-1" filename="C:\xampp\htdocs\jerry\style\style.css" backupFilePath="" originalFileLastModifTimestamp="316733912" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1200" startPos="417" endPos="417" selMode="0" lang="HTML" encoding="-1" filename="C:\xampp\htdocs\jerry\templates\home.html" backupFilePath="" originalFileLastModifTimestamp="316733671" />
+            <File firstVisibleLine="48" xOffset="0" scrollWidth="376" startPos="1212" endPos="1212" selMode="0" lang="CSS" encoding="-1" filename="C:\xampp\htdocs\nacossite\nacossite\css\style.css" backupFilePath="" originalFileLastModifTimestamp="1481318958" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>

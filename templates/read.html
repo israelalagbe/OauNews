@@ -1,0 +1,39 @@
+<ion-view title=''>
+  <ion-content class='padding'>
+  <div class="list card" style='max-width:700px;margin:auto;'>
+<div class="item item-avatar">
+<img ng-src="img/logo.png">
+<h2>{{news.title}}</h2>
+<p>{{news.time|ago}}</p>
+<p>{{::news.author}}</p>
+</div>
+<div class="item item-body">
+<div ng-repeat='image in news.images track by $index'>
+<img  class="full-image" ng-src="{{image}}" >
+</div>
+<p>
+<pre>
+{{::news.content}}
+<!--After 15 weeks of lectures and practical classes, students of the Federal College of Animal Health and Production Technology Ibadan have started writing their examinations for the first Semester of the 2016/2017 session.
+
+Promoting the goal of integrity within and outside the classroom, the FCAHPT Management Team had admonished students of the college on the imperative of eschewing malpractices during the examination. This is necessary because of the college's zero tolerance for examination misconduct.
+
+In addition, the College management wishes all students success in the ongoing examinations.
+
+The examinations commenced on Monday, April 24th, 2017.-->
+</pre>
+</p>
+<!--<p class="row">
+<label class="col">
+Rating : <i class="icon ion-star" ngrepeat="i in getNumber(book.rating) track by $index"></i>
+</label>
+<label class="col">
+Price :
+<label class="subdued">{{::book.price |
+currency}} $</label>
+</label>
+</p>-->
+</div>
+</div>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,19 @@
+<ion-view hide-back-button='true'>
+<ion-nav-buttons slide='left'>
+    <button class='button button-icon button-clear ion-navicon' menu-toggle='left'></button>
+</ion-nav-buttons>
+    <ion-nav-title>
+        Top News
+    </ion-nav-title>
+    <ion-content class='padding'>
+        <ion-refresher on-refresh="refresh()" pulling-text="Pull to refresh..." refreshing-text="Refreshing!" refreshing-icon="ion-loading-c">
+        </ion-refresher>
+
+                <ion-list>
+            <ion-item ng-click="handle_click({{item.id}})" class="item text-center" ng-repeat="item in news_links|orderBy:'-id' track by item.id" style="white-space:normal;text-overflow:initial;">
+                <img ng-src='{{item.images[0]}}' style='width:100%;max-width:400px;max-height:150px;height:100%;' />
+                <h2><!--{{item.user.name.first}} {{item.user.name.last}}-->{{item.title}}</h2>
+                <p>{{::item.time|ago}}</p>
+        </ion-list>
+    </ion-content>
+</ion-view>

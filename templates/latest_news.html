@@ -1,0 +1,22 @@
+<ion-view hide-back-button='true'>
+<ion-nav-buttons slide='left'>
+    <button class='button button-icon button-clear ion-navicon' menu-toggle='left'></button>
+</ion-nav-buttons>
+    <ion-nav-title>
+        Latest News
+    </ion-nav-title>
+    <ion-content class='padding'>
+        <ion-refresher on-refresh="refresh()" pulling-text="Pull to refresh..." refreshing-text="Refreshing!" refreshing-icon="ion-loading-c">
+        </ion-refresher>
+        <ion-list>
+            <ion-item ng-click="handle_click({{item.id}})" class="item-thumbnail-right" ng-repeat="item in news_links|orderBy:'-id' track by item.id" style="white-space:normal;text-overflow:initial;">
+                <img ng-src='{{item.images[0]}}' style='' />
+                <h2><!--{{item.user.name.first}} {{item.user.name.last}}-->{{item.title}}</h2>
+                <p>{{::item.time|ago}}</p>
+                <!--<p>//-->
+                <!--{{item.user.location.city}} {{item.user.password}}-->
+                <!--Eniola Akinkuotu, Abuja</p>-->
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
