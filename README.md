@@ -1,3 +1,6 @@
 # OauNews
-Designed with Ionic1 and AngularJS 1. 
-The installation is easy, extract into any web server.
+An Android app for Oau designed with Ionic1 and AngularJS 1. 
+Features includes
+-Push notification
+-Admin Page
+
